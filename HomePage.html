@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookie Shop</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://www.paypal.com/sdk/js?client-id=YOUR_CLIENT_ID_HERE&currency=USD"></script>
+</head>
+<body class="bg-amber-50 text-gray-800">
+  <div class="max-w-4xl mx-auto py-10 px-6">
+    <h1 class="text-4xl font-bold mb-6 text-center">🍪 Cookie Shop</h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Chocolate Chip -->
+      <div class="bg-white p-4 rounded-xl shadow-md flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1606755962773-98c1fa6c4e89" alt="Chocolate Chip Cookies" class="w-32 h-32 object-cover rounded-lg mb-4" />
+        <h2 class="text-xl font-semibold">Chocolate Chip</h2>
+        <p class="text-sm mb-2 text-center">Classic cookies with melty chocolate chips.</p>
+        <p class="text-lg font-bold mb-3">$5.00</p>
+        <div id="paypal-button-container-1"></div>
+      </div>
+      <!-- Oatmeal Raisin -->
+      <div class="bg-white p-4 rounded-xl shadow-md flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1589308078054-d2f0fc219c3e" alt="Oatmeal Raisin Cookies" class="w-32 h-32 object-cover rounded-lg mb-4" />
+        <h2 class="text-xl font-semibold">Oatmeal Raisin</h2>
+        <p class="text-sm mb-2 text-center">Wholesome and chewy with sweet raisins.</p>
+        <p class="text-lg font-bold mb-3">$5.00</p>
+        <div id="paypal-button-container-2"></div>
+      </div>
+      <!-- Peanut Butter -->
+      <div class="bg-white p-4 rounded-xl shadow-md flex flex-col items-center">
+        <img src="https://images.unsplash.com/photo-1603366462348-59f9b46e0602" alt="Peanut Butter Cookies" class="w-32 h-32 object-cover rounded-lg mb-4" />
+        <h2 class="text-xl font-semibold">Peanut Butter</h2>
+        <p class="text-sm mb-2 text-center">Rich and nutty flavor in every bite.</p>
+        <p class="text-lg font-bold mb-3">$5.00</p>
+        <div id="paypal-button-container-3"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
